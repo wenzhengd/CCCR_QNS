@@ -13,6 +13,9 @@ Outputs are
 
 class NoisyCircSimulator():
 	"""
+ 	docstring see follows:
+ 	"""
+  
 	This is a noisy Circuit simulator:
 
 	1. The total number of qubit Q=4 # You can also make Q to be customizable. 
@@ -47,4 +50,4 @@ class NoisyCircSimulator():
 
 	--------------------------------------------------------------------------------
 	There is a tricky part for tensorization and GPU based parallelism. 
-	"""
+
