@@ -28,6 +28,7 @@ class NoisyCircSimulator():
    		  2 ----o-------X-------o-------o---- 
              	|       |       |       |   
    		  3 ----X-------o-------o-------o---- 
+	   **In the formal theoretical analysis: all gates are assumed instantaneous! In your numerical simulation though, you'd better define a narrow pulse to approxiamte this idealization. In deed, Xiu-Hao will proabably also think so... **
 	4. The noisy Circuit simulator is subject to noise, where the noise gives stochastic function f(t)
 		and in the Hamiltonian, the noisy term is f(t)* (Pauli_z[0] + ... + Pauli_z[3]), meaning each qubit is dephased by the stochastic function f(t).
 		# I will guide you to genereate the noise ensemble {f(t)}, all you need to know is that
